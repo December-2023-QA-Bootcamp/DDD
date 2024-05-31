@@ -35,6 +35,8 @@ public class StudentQueries {
 				Student student = new Student(firstname, lastname, dobdate, dobMonth, dobyear);
 				listOfStudents.add(student);
 			}
+			
+			dbUtil.closeConnection();
 		}
 		catch (SQLException e) {
 			e.printStackTrace();

@@ -12,7 +12,7 @@ import com.cms.gov.ddd.base.TestBase;
 import dto.Student;
 import query.StudentQueries;
 
-public class NewRegistrationDataDrivenText extends TestBase{
+public class NewRegistrationDataDrivenTest extends TestBase{
 
 	@DataProvider(name = "students_obj")
 	public Object[][] getStudentObjects(){

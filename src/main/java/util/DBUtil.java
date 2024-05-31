@@ -57,4 +57,12 @@ public class DBUtil {
 		}
 		return resultSetMetaData;
 	}
+	
+	public void closeConnection() {
+		try {
+			connection.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
 }

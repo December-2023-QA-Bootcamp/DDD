@@ -10,6 +10,14 @@ public class Student {
 	
 	public Student() {}
 	
+	/**
+	 * 
+	 * @param firstname String
+	 * @param lastname String
+	 * @param dob_date int
+	 * @param dob_month String
+	 * @param dob_year int
+	 */
 	public Student(String firstname, String lastname, int dob_date, String dob_month, int dob_year) {
 		this.firstname = firstname;
 		this.lastname = lastname;

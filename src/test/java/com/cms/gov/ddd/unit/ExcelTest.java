@@ -1,5 +1,6 @@
 package com.cms.gov.ddd.unit;
 
+import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -37,6 +38,7 @@ public class ExcelTest {
 	}
 
 	//@Test
+	@Test
 	public void testList() throws EncryptedDocumentException, IOException {
 		File file = new File("src/test/resources/Players.xlsx");
 
